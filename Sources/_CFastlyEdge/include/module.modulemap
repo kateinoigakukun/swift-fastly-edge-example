@@ -1,0 +1,4 @@
+module _CFastlyEdge {
+    header "_CFastlyEdge.h"
+    export *
+}
