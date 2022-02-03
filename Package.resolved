@@ -1,0 +1,16 @@
+{
+  "object": {
+    "pins": [
+      {
+        "package": "Compute",
+        "repositoryURL": "https://github.com/AndrewBarba/swift-compute-runtime",
+        "state": {
+          "branch": "main",
+          "revision": "77b0f5353938704641aac11b8617573f4b90d8ae",
+          "version": null
+        }
+      }
+    ]
+  },
+  "version": 1
+}

@@ -5,11 +5,10 @@ import PackageDescription
 
 let package = Package(
     name: "FastlyEdgeExample",
-    products: [
+    dependencies: [
+        .package(name: "Compute", url: "https://github.com/AndrewBarba/swift-compute-runtime", branch: "main")
     ],
-    dependencies: [],
     targets: [
-        .executableTarget(name: "FastlyEdgeExample", dependencies: ["_CFastlyEdge"]),
-        .target(name: "_CFastlyEdge"),
+        .executableTarget(name: "FastlyEdgeExample", dependencies: ["Compute"]),
     ]
 )
